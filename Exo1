@@ -1,0 +1,111 @@
+mkdir ./Exercice1
+  227  cd ./Exercice1
+  228  wget http://plurital.org/ppe1/seance1/archive-50.zip
+  229  unzip archive-50
+  230  mkdir txt
+  231  mkdir img
+  232  mkdir ann
+  233  mkdir docs
+  234  ls
+  235  mv *.txt ./txt
+  236  ls txt
+  237  mv *.jpg ./img
+  238  mv *.png ./img
+  239  mv *.jpeg ./img
+  240  mv *.svg ./img
+  241  mv *.gif ./img
+  242  ls
+  243  mv *.ann ./ann
+  244  ls
+  245  ls ann
+  246  mv *.odt ./docs
+  247  mv *.docx ./docs
+  248  mv *.pdf ./docs
+  249  cd img
+  250  ls
+  251  cd ..
+  252  cd docs
+  253  ls
+  254  cd ..
+  255  cd txt
+  256  ls
+  257  cd ..
+  258  pwd
+  259  history
+  260  cd ./txt
+  261  mkdir ./2016 ./2017 ./2018
+  262  mv 2016*.txt ./2016
+  263  mv 2017*.txt ./2017
+  264  mv 2018*.txt ./2018
+  265  ls
+  266  cd ./2016
+  267  ls
+  268  cd ./2017
+  269  cd ./2018
+  270  cd ..
+  271  cd ./2017
+  272  ls
+  273  cd..
+  274  cd ..
+  275  cd ./2018
+  276  ls
+  277  cd ..
+  278  cd ./ann
+  279  cd ..
+  280  cd ./ann
+  281  ls
+  282  mkdir ./2016
+  283  mkdir ./2017
+  284  mkdir ./2018
+  285  mv 2016*.ann ./2016
+  286  mv 2017*.ann ./2017
+  287  mv 2018*.ann ./2018
+  288  ls
+  289  cd 2016
+  290  ls
+  291  cd ..
+  292  cd ./img
+  293  cd ..
+  294  cd ./img
+  295  ls
+  296  mkdir ./Taipei ./Washington ./Tokyo ./Paris ./Kyoto ./Berlin ./Rome
+  297  mv *-Paris.* ./Paris
+  298  cd ./Paris
+  299  ls
+  300  cd ../
+  301  mv -Paris.* ./Paris
+  302  cd ./Paris
+  303  ls
+  304  cd../
+  305  cd ../
+  306  mv -Paris.* ./Paris
+  307  mv *-Paris./* ./Paris
+  308  cd ./paris
+  309  cd ./Paris
+  310  cd../
+  311  cd ..:
+  312  cd ..
+  313  ls
+  314  mv *-Paris*.* ./Paris
+  315  cd ./Paris
+  316  ls
+  317  mv*-Tokyo*.* ./Tokyo
+  318  mv *-Tokyo*.* ./Tokyo
+  319  cd ..
+  320  mv *-Tokyo*.* .Tokyo
+  321  ls
+  322  mv *-Tokyo*.* ./Tokyo
+  323  mv *-Kyoyo*.* ./Kyoto
+  324  mv *-Kyoto*.* ./Kyoto
+  325  mv *-Berlin*.* ./Berlin
+  326  mv *-Rome*.* ./Rome
+  327  mv *-Taipei*.* ./Taipei
+  328  mv *-Washington*.* ./Washington
+  329  ls
+  330  cd Rome
+  331  ls
+  332  cd ..
+  333  rm-rf archive-50
+  334  cd ..
+  335  rm-rf archive-50
+
