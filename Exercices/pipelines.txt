@@ -1,0 +1,51 @@
+214  mkdir ./Exercice1
+  215  cd Exercice1/
+  216  ls
+  217  clear
+  218  rm Exercice1
+  219  cd../
+  220  clear
+  221  cd Exercice1
+  222  ann
+  223  cd ann
+  224  cat 2016/*
+  225  cat 2016/* | wc 
+  226  cat 2016/* | wc -l
+  227  echo "annotatioon en 2016" | cat 2016/*.ann | wc-l >>comptes.txt
+  228  echo "annotatioon en 2016" | cat 2016/*.ann | wc -l >>comptes.txt
+  229  cat comptes.txt
+  230  echo "annotation en 2016" > comptes.txt | cat 2016/*.ann | wc -l >>comptes.txt
+  231  cat comptes.txt
+  232  echo "annotation en 2017" >> comptes.txt | cat 2017/*.ann | wc -l >>comptes.txt
+  233  cat comptes.txt
+  234  echo "annotation en 2018" >> comptes.txt | cat 2018/*.ann | wc -l >>comptes.txt
+  235  cat comptes.txt 
+  236  wc -l
+  237  echo "Localisation en 2016" >> Location.txt | cat 2016/*.ann | grep Location | wc -l >>Location.txt
+  238  cat Location.txt 
+  239  echo "Localisation en 2017" >> Location.txt | cat 2017/*.ann | grep Location | wc -l >>Location.txt
+  240  echo "Localisation en 2018" >> Location.txt | cat 2018/*.ann | grep Location | wc -l >>Location.txt
+  241  cat Location.txt 
+  242  cat 2016/* .ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >> classement_2016.txt
+  243  cat 2016/* .ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >>classement_2016.txt
+  244  cat 2016/*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >>classement_2016.txt
+  245  cat 2017/*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >>classement_2017.txt
+  246  cat 2018/*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >>classement_2018.txt
+  247  cat classement_2016
+  248  cat classement_2016.txt 
+  249  cat 2016/*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >classement_2016.txt
+  250  cat classement_2016.txt 
+  251  cat classement_2017.txt 
+  252  cat classement_2018.txt 
+  253  cat 2016/*.ann | cat 2017/* | cat 2018/*
+  254  cat 2016/*.ann | cat 2017/* | cat 2018/* | wc -l
+  255  cat comptes.txt 
+  256  cat */*_09*
+  257  cat */*_09* | wc -l
+  258  cat */*_09*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >par mois.txt
+  259  cat */*_09*.ann | grep Location | cut -f3 | sort | uniq -c | sort -n | tail -n15 >par_mois.txt
+  260  cat par_mois.txt 
+  261  ls
+  262  mv classement_2016.txt classement_2017.txt classement_2018.txt comptes.txt par_mois.txt Location.txt ~/cours/plurital/PPE1-2024/Exercices$ 
+  263  mv classement_2016.txt classement_2017.txt classement_2018.txt comptes.txt par_mois.txt Location.txt ~/cours/plurital/PPE1-2024/Exercices 
+  264  history 

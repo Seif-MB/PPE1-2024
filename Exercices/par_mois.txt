@@ -1,0 +1,15 @@
+      8 Russie
+      9 Chine
+      9 Deir ez-Zor
+     10 al-Bab
+     10 Canada
+     10 Mars
+     10 Turquie
+     13 Irak
+     15 Allemagne
+     16 Espagne
+     18 Syrie
+     20 Rio
+     22 États-Unis
+     26 Paris
+     74 France
