@@ -7,5 +7,7 @@ Ce journal existe déja dans le dépot
 ## manipulation de fichiers sur git 
 git add git commit git push
 I AM ERROR
+
+Cette ligne doit rester aprés correction
 # Séance 3
 ## Exercices Git
