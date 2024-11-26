@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation - Mini-Projet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <style>
+        ul.losange {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+        ul.losange li::before {
+            content: "◆";
+            color: #3273dc;
+            margin-right: 0.5em;
+        }
+        /* Amélioration : animation hover sur le bouton */
+        .button.is-link:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Mini-Projet HTML</h1>
+                <p class="subtitle">Ce projet est une préparation au projet collectif.</p>
+                <ul class="losange">
+                    <li>L'URL concernée</li>
+                    <li>Le code HTTP de la requête</li>
+                    <li>L'encodage utilisé</li>
+                    <li>Le nombre de mots détectés</li>
+                </ul>
+                <a href="tableau.html" class="Cliquez ici">Voir le tableau</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
