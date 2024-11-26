@@ -1,41 +1,132 @@
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<title>miniprojet2</title>
-		<meta name="author" content="seifmebarki">
-	</head>
-	<body>
-<table>
-    <tr><th>url</th><th>Code de statut HTTP </th> <th> encodage </th> <th> Taille</th></tr>
-    <tr>
-        <td>https://fr.wikipedia.org/wiki/Robot</td> <td> 200<td>UTF-8</td><td>15727</td>
-    </tr>
-    
-<tr>
-<td>https://fr.wikipedia.org/wiki/Robot_de_cuisine</td>	<td>200</td>	<td>UTF-8</td>	<td>3909</td>
- </tr>
-<tr> 
-<td>fr.wikipedia.org/wiki/Robot_d%27indexation</td> <td>301</td> <td>non specifie</td> <td>0</td>
-<tr> 
-<td>https://fr.wikipedia.org/wiki/Bot_informatique</td><td>200</td><td>UTF-8</td><td>5815</td></tr>
-<tr>
-<td>https://fr.wikipedia.org/wiki/Atlas_(robot)</td><td>200</td><td>UTF-8</td><td>3761</td>
-</tr>
-<tr>
-<td>https://roboty.magistry.fr</td><td>200</td><td>non specifie</td><td>166</td>
-</tr>
-<tr>
-<td>https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)</td><td>404</td><td>UTF8-8</td><td>2111</td>
-</tr>
-<tr>
-<td>https://fr.wiktionary.org/wiki/robot</td><td>200</td><td>UTF-8</td><td>12259</td>
-</tr>
-<tr>
-<td>https://fr.wikipedia.org/wiki/Protocole_d%27exclusion_des_robots</td><td>200</td><td>UTF-8</td><td>3971</td>
-</tr>
-<tr>
-<td>https://fr.wikipedia.org/wiki/Robotique</td><td>200</td><td>UTF-8</td><td>21820</td>
-</tr>
-</table>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Tableau des Données</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        table {
+            margin-top: 20px;
+        }
+
+        caption {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4a4a4a;
+        }
+
+        .table-container {
+            padding: 20px;
+        }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        a {
+            color: #3273dc; /* Bulma primary color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="table-container">
+        <table class="table is-striped is-hoverable is-fullwidth">
+            <caption>Suite du Mini-Projet</caption>
+            <thead>
+                <tr>
+                    <th>Numéro</th>
+                    <th>Les URLS</th>
+                    <th>Code HTTP</th>
+                    <th>Nombre de Tokens</th>
+                    <th>Encodage HTML</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Robot" target="_blank">https://fr.wikipedia.org/wiki/Robot</a></td>
+                    <td>200</td>
+                    <td>15732</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Robot_de_cuisine" target="_blank">https://fr.wikipedia.org/wiki/Robot_de_cuisine</a></td>
+                    <td>200</td>
+                    <td>3901</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Robot_d%27indexation" target="_blank">https://fr.wikipedia.org/wiki/Robot_d%27indexation</a></td>
+                    <td>200</td>
+                    <td>5179</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Bot_informatique" target="_blank">https://fr.wikipedia.org/wiki/Bot_informatique</a></td>
+                    <td>200</td>
+                    <td>5822</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Atlas_(robot)" target="_blank">https://fr.wikipedia.org/wiki/Atlas_(robot)</a></td>
+                    <td>200</td>
+                    <td>3761</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://roboty.magistry.fr" target="_blank">https://roboty.magistry.fr</a></td>
+                    <td>200</td>
+                    <td>166</td>
+                    <td>Non spécifié</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci" target="_blank">https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci</a></td>
+                    <td>200</td>
+                    <td>84878</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://fr.wiktionary.org/wiki/robot" target="_blank">https://fr.wiktionary.org/wiki/robot</a></td>
+                    <td>200</td>
+                    <td>12261</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Protocole_d%27exclusion_des_robots" target="_blank">https://fr.wikipedia.org/wiki/Protocole_d%27exclusion_des_robots</a></td>
+                    <td>200</td>
+                    <td>3978</td>
+                    <td>UTF-8</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://fr.wikipedia.org/wiki/Robotique" target="_blank">https://fr.wikipedia.org/wiki/Robotique</a></td>
+                    <td>200</td>
+                    <td>21827</td>
+                    <td>UTF-8</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
 </html>
